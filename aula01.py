@@ -28,4 +28,71 @@ a
  bool("False") 
  
  #--------RELATIONAL OPERATOR --------
- 
+ """ 
+ == igualdade:
+ != diferente:
+ < menor que:
+ > maior que:
+ <= menor e igual a que:
+ >= maior e igual a que:
+ """
+g=20    # atribuindo
+g == 20 # verdade
+g ==13  # falso
+g != 13 # verdade
+g < 30  # verdade
+g <= 20 # verdade
+g > 30  # falso
+
+#-------------- CONTROL FLOW ---------------
+# if expressao: 
+#     bloco com comando
+
+if True:
+    print("é verdadeiro!")
+
+if bool("ovos"):
+    print("sim, por favor !")
+
+h=42
+if h > 50:
+    print("Maior que 50")
+else:
+    print("50 ou menor") 
+
+if h > 50:
+    print("Maior que 50")
+else:
+    if h < 20:
+    print("Menor que 20")
+    else:
+    print("entre 20 e 50") 
+
+if h > 50:
+    print("Maior que 50")
+elif h < 20:
+    print("Menor que 20"))
+else:
+    print("entre 20 e 50")
+
+# --------------------- WHILE-LOOPS ---------------
+# while expressao:
+#      bloco de codigo
+#obs : a expressao que fica no while se torna numa condição booleana e enquanto verdadeira roda o codigo
+
+c=5
+while c != 0:
+    print(c)
+    c -= 1
+
+# outra forma de fazer o loop devido a expressao ser booleana
+c=5
+while c :
+    print(c)
+    c -= 1
+# chegaremos no mesmo resultado porque a variavel só se torna falsa quando ela chega a "zero"
+while True:
+    r=input()
+    if int(r)%7==0:
+        break
+
