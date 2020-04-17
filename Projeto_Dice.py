@@ -45,7 +45,3 @@ while gameglobal==True:
         print("Até a proxima!!!!")    
     
         
-'''
-print(Dados)
-print(choice(Lados))
-'''
