@@ -32,3 +32,39 @@ a= quadrado(5)
 print(a)
 print(type(a))
 print(a == None)
+
+print(100*"-")
+#podemos chamar funçoes dentro de outras
+def quadrado2(x):
+    return x*x
+
+def quadruplo(x):
+    quad=quadrado2(x) * quadrado2(x)
+    return quad
+
+print(quadruplo(5))
+
+#tambem podemos ter varias opçoes de return dentro de uma função 
+def escolha(x):
+    if x== 1:
+        return print("voce escolheu o numero 1")
+    elif x==2:
+        return print("voce escolheu o numero 2")
+
+print(escolha(1))
+print(escolha(2))
+
+#tambem posso retornar mais de uma variavel no return
+
+def getpessoa():
+    nome="newton"
+    idade="24"
+    pais="brasil"
+    return nome,idade,pais 
+
+a=getpessoa()
+print(a)
+
+#algumas funçoes podem ter nomes especial  e elas  elas usan dunder "__" no inicio e no fim
+#exemplo __init__
+
