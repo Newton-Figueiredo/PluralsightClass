@@ -1,3 +1,7 @@
+'''
+-------LEMBRETE: refatorar esse programa adicionando os metodos: list() e range(inicio,parada,passo): ------------
+'''
+
 from random import choice 
 
 Dados=[]
