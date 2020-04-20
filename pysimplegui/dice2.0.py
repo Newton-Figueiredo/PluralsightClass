@@ -6,12 +6,13 @@ class TelaDG:
     def __init__(self):
         #layout (define estilos)
         layout=[
+            [sg.Text("Partiu rogar esse RPG!!!!!!")],
             [sg.Text("quantos dados")],
             [sg.Slider(range=(1,30),default_value=0,orientation="h",size=(10,10),key="ndados")],
             [sg.Text("quantos lados")],
             [sg.Slider(range=(1,30),default_value=0,orientation="h",size=(10,10),key="nlados")],
             [sg.Button("GO")],
-            [sg.Output(size=(30,30))]
+            [sg.Output(size=(30,20))]
         ]
         #janela
         self.janela = sg.Window("Dice Gerator").layout(layout)
