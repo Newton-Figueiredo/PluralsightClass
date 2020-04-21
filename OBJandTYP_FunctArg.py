@@ -44,5 +44,14 @@ print(add_spam())
 '''
 add_spam tinha um vetor vazio declarado dentro dele, toda vez que ele era chamado..
 ele salva-va "spam" dentro desse vetor "menu" que já nao estava mais vazio...
-nao cumprindo assim com o seu objetivo de nao armazenar mais de um valor spam 
+nao cumprindo assim com o seu objetivo de nao armazenar mais de um valor spam
 '''
+#sempre use valores imutaveis para valores default
+#corrigindo da melhor maneira essa função
+def add_spam(menu=None):
+    if menu is None:
+        menu=[]
+    
+    menu.append("spam")
+    return menu
+
