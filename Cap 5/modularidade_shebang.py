@@ -29,4 +29,4 @@ no terminal use :
 caso dé erro de permissao use:
 
 chmod a+x nome_do_arquivo.py
-''' 
+'''
