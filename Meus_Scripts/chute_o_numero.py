@@ -24,7 +24,7 @@ contador = 0
 numeros_chutados=set()
 
 #------------------------------
-#print(me_advinhe)
+print(me_advinhe)
 while switch_button == "s" or switch_button == "S":
    
     print(100*"-"+"\n")
@@ -45,13 +45,18 @@ while switch_button == "s" or switch_button == "S":
                 print("AEWWWW CARRAAAIIII VOCE ACERTOUUUUU KKKKKK\n ")
                 switch_button=False
         elif chute > me_advinhe - 10 and chute < me_advinhe + 10 :
-            
-            print("CARALHOOOO TA QUASE LÁ KKKKKK \n")    
+            if me_advinhe - chute >= -10 and me_advinhe - chute < 0:
+                print("EITAAAA VIADOOO QUE TA BEM PERTINHO DIMINUA MAIS UM POUQUINHO KKKKKK\n ") 
+            elif me_advinhe - chute > 0 and me_advinhe - chute <= 10:
+                print("EITAAAA VIADOOO QUE TA BEM PERTINHO AUMENTE MAIS UM POUQUINHO KKKKKK\n ") 
+                
         elif chute > me_advinhe - 25 and chute < me_advinhe + 25 :
-            
-            print("EITAAAA VIADOOO QUE TA PERTINHO KKKKKK\n ")
-            
-        elif chute > me_advinhe + 25 and chute < me_advinhe - 25:
+            if me_advinhe - chute >= -25 and me_advinhe - chute < 0:
+                print("CARALHOOOO TA QUASE LÁ, DIMINUA O VALOR KKKKKK \n") 
+            elif me_advinhe - chute > 0 and me_advinhe - chute <= 25:
+                print("CARALHOOOO TA QUASE LÁ, AUMENTE O VALOR KKKKKK \n") 
+              
+        elif chute > me_advinhe + 40 and chute < me_advinhe - 40:
             
             print("VISH PASSOU FOI LONGE KKKKKK \n")
         
