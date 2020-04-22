@@ -22,9 +22,9 @@ print("\n"+100*"-"+"\n")
 me_advinhe = randint(1,100)
 contador = 0
 numeros_chutados=set()
-
+#print(me_advinhe)
 #------------------------------
-print(me_advinhe)
+
 while switch_button == "s" or switch_button == "S":
    
     print(100*"-"+"\n")
