@@ -52,3 +52,6 @@ tuple("oi sumida")
 #obs tambem da certo pondo a variavel dentro do metodo.
 frase="oi sumida"
 frase=tuple(frase)
+# podemos tambem usar in ou not in para verificarmos as tuplas
+"a" in frase
+" " not in frase
