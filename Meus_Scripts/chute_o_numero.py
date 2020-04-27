@@ -57,4 +57,5 @@ def main():
             print(barra)
             print("VOCE JÁ CHUTOU ESSE NUMERO KKKKKK\n ")
 
-main()
+if __name__ == "__main__" :
+        main()
