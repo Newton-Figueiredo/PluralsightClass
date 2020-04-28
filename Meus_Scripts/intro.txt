@@ -1,3 +1,4 @@
+--------------------------------------------------------------------------------------------
 Alguns cangaceiros desistiram das suas vidas de crime
 depois que o Antônio Conselheiro apareceu e formou a cidade de Canudos.
 Porém... 
@@ -17,10 +18,41 @@ Você aceitou a missão...
 Ele entrega o bebê e duas cartas, uma para o aventureiro e outra para entregar para quem
 vai ficar com a criança. Ele dá as coordenadas de onde poderão encontrar a fazenda a qual ele têm
 que enviar o bebê, deixando os agora refugiados e a decidir o que fazer.
+você escutou passos, distantes
+....
+
+Você abre as cartas ? [1] ou foge de imediato ?    [2]
 --------------------------------------------------------------------------------------------
 Você nao aceitou a missão...
 Antônio Conselheiro indignado lhe amaldiçoa e te expulsa de Canudos
 na saida da cidade e no meio das batalhas você se depara com dois soldados
 ...
 Você atira nos soldados ? [1] ou tenta persuadilos ?    [2]
+--------------------------------------------------------------------------------------------
+Você abre as cartas...
 
+Carta do aventureiro: “A criança que vocês têm em mãos, será conhecida por todo o país e
+até no exterior. Façam o possível para nada de ruim acontecer a ela. Quando chegarem ao sítio
+Passagem das Pedras, entreguem a outra carta e a criança à Zé Ferreira e Maria Jocosa. Eles saberão
+o que fazer.”
+
+Carta para Zé Ferreira: “Estou enviando uma criança que mudará o futuro da nação, eu o
+abençoei com alguns dons. Criem como se fosse seus, eduquem-no e ensine ele a amar o país em
+que vive. Entregue a “caixa” para a pessoa que lhe entregar ele. Você não me verá mais, que A
+Mão o toque.”.
+
+soldados do exercito te encotraram....
+Você luta ? [1] ou foge ?    [2]
+--------------------------------------------------------------------------------------------
+batalha !!!
+
+escolha a sua arma sabiamente !!!!
+
+Pedra ou Papel ou Tesoura !?
+--------------------------------------------------------------------------------------------
+você ganhou a luta !!
+ 
+podemos seguir com o nosso caminho!
+
+...
+-------------------------------------------------------------------------------------------------
