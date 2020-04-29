@@ -69,7 +69,7 @@ def main():
                 resposta=int(input())
                 if resposta == 1 :
                     condicao=1
-                    while condicao==1:
+                    while condicao==1: #---luta---
                         ler_texto("intro.txt",46,51)
                         resposta=str(input())
                         condicao=batalha(resposta)
@@ -89,9 +89,28 @@ def main():
             ler_texto("intro.txt",25,30)
             resposta=int(input())
             if resposta == 1 :
-                pass
+                while condicao==1: #---luta---
+                    ler_texto("intro.txt",46,51)
+                    resposta=str(input())
+                    condicao=batalha(resposta)
+                    if condicao==3:
+                        print("fim de jogo\n Acabaram as esperanças!!")
+                        start==False
+                    elif condicao==2:
+                        ler_texto("intro.txt",52,57)
+                        pass
+                ler_texto("intro.txt",66,72)
+                resposta=int(input())
+                if resposta==1:
+                    pass
+                elif resposta==2:
+                    ler_texto("intro.txt",73,77)
+                    start==False
+                    
+
             elif resposta == 2 :
-                pass
+                ler_texto("intro.txt",58,65)
+                start==False
                 
         
     
