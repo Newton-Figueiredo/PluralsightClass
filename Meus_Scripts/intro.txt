@@ -75,3 +75,16 @@ você quer voltar e resgatar a criança ? [1] ou ignora esse sentimento ? [2]
 Acabaram-se as esperanças.... FIM DE JOGO .....
 
 -------------------------------------------------------------------------------------------------
+você voltou para resgatar a criança....
+
+na casa de Antônio Conselheiro todos estao mortos .... 
+
+e a criança esta ferida e chorando ....
+
+voce sai em desespero para as coordenadas dadas por Antônio
+
+antes de chegar na fazenda, voce percebe que a criança parou de respirar ...
+mas voce percebe que está sendo seguido. 
+
+você quer parar e socorrer a criança ? [1] ou ignora e acelera para chegar logo na fazenda ? [2]
+-----------------------------------------------------------------------------------------------------

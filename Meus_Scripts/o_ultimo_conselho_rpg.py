@@ -14,7 +14,7 @@ def batalha(sua_arma):
     arma_inimigo=jokenpo()
     if sua_arma==arma_inimigo:
         condicao=1
-        return print("Empate"),condicao
+        return condicao
     else:
         if sua_arma=="Pedra" and arma_inimigo=="Tesoura":
             condicao=2
@@ -89,6 +89,7 @@ def main():
             ler_texto("intro.txt",25,30)
             resposta=int(input())
             if resposta == 1 :
+                condicao=1
                 while condicao==1: #---luta---
                     ler_texto("intro.txt",46,51)
                     resposta=str(input())
