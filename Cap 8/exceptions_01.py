@@ -188,3 +188,81 @@ def convert(s):
         print(f"o erro foi de: {e!r}",file=sys.stderr)  #vamos printar o erro o objeto do erro esta salvo na variavel "e"
         return x                      # "file" recebe o nome que o usuario digitou, que o casionou o erro.
                                       # o comando !r  adociona(une) a variavel "e" na string do print
+
+#----------Re-raising exceptions ------------------------
+'''
+codigos de erros sao faceis de ignorar , mas checar as variaveis antes sempre é uma boa saida 
+
+podemos chamar o erro a hora que queremos ... com o metodo raise
+
+'''
+import sys
+def convert(s):
+    
+    try: #--- tente -> isso.. -----
+        number = ''     #----bloco que pode gerar uma excecao.... -----
+        for token in s:
+            number += DIGIT_MAP[token]
+        x = int(number)
+        print("conversao deu certo")
+        return x
+    except (KeyError,TypeError) as e: #---- guardando os argumantos dos erros na variavel "e"
+        print(f"o erro foi de: {e!r}",file=sys.stderr)  #vamos printar o erro o objeto do erro esta salvo na variavel "e"
+        raise              # "file" recebe o nome que o usuario digitou, que o casionou o erro.
+                            
+#--------------- exceptions fazem parte da API ----------------------------------------------------
+'''
+exceptions fazem parte de todos os programas devemos saber nos expressar diante dos erros
+dos usuarios
+
+use raise para devolvar informaçoes de erros
+
+raise ValueError("frase_do _erro")
+
+'''
+import sys
+def convert(s):
+    
+    try: #--- tente -> isso.. -----
+        number = ''     #----bloco que pode gerar uma excecao.... -----
+        for token in s:
+            number += DIGIT_MAP[token]
+        x = int(number)
+        print("conversao deu certo")
+        return x
+    except (KeyError,TypeError) as e: #---- guardando os argumantos dos erros na variavel "e"
+        print(f"o erro foi de: {e!r}",file=sys.stderr)  #vamos printar o erro o objeto do erro esta salvo na variavel "e"
+        raise ValueError("mano digita o bagulho certo pf!")             # "file" recebe o nome que o usuario digitou, que o casionou o erro.
+
+#---- ALGUNS TIPOS DE ERROS ------------
+'''
+INDEX ERROR: um valor que nao se encontra la lista ou nao esta no intervalo...
+exemplo:
+
+'''
+lista=[1,2,3]
+print(lista[3]) #nao existe nenhum objeto no slote 3 da lista ... erro de index
+
+'''
+VALUE ERROR: um valor que é do tipo correto mas possue valor inapropriado
+exemplo:
+'''
+int('jim') #--- int() ja espera caracteres mas espera caracteres numericos da base 10....error de valor
+
+'''
+KEY ERROR: quando chamamos uma key no dicionario que nao existe
+exemplo:
+'''
+dic={newton:99874654,lucas:22812562165}
+print(dic[pablo]) # vai gerar uma key error pablo nao contem no dicionario 
+
+
+#-------------------try.... finally ------------------
+'''
+try:
+    bloco de codigo do try
+
+finally:
+    executado nao importa o que aconteça no try
+'''
+
