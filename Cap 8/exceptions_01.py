@@ -262,7 +262,7 @@ print(dic[pablo]) # vai gerar uma key error pablo nao contem no dicionario
 try:
     bloco de codigo do try
 
-finally:
+finally:    #entender melhor a funcionalidade do finally
     executado nao importa o que aconteça no try
 '''
 
